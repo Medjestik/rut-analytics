@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.98f05e70.chunk.css",
+    "main.js": "./static/js/main.5d142393.chunk.js",
+    "main.js.map": "./static/js/main.5d142393.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.faf482b3.js",
+    "runtime-main.js.map": "./static/js/runtime-main.faf482b3.js.map",
+    "static/js/2.d568e9f2.chunk.js": "./static/js/2.d568e9f2.chunk.js",
+    "static/js/2.d568e9f2.chunk.js.map": "./static/js/2.d568e9f2.chunk.js.map",
+    "static/js/3.dd7a7e97.chunk.js": "./static/js/3.dd7a7e97.chunk.js",
+    "static/js/3.dd7a7e97.chunk.js.map": "./static/js/3.dd7a7e97.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.98f05e70.chunk.css.map": "./static/css/main.98f05e70.chunk.css.map",
+    "static/js/2.d568e9f2.chunk.js.LICENSE.txt": "./static/js/2.d568e9f2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/Raleway-Thin.48c8c234.eot",
+    "static/media/Main.css": "./static/media/property-white-icon.a3e86c18.png",
+    "static/media/logo-rut-color.65493b27.png": "./static/media/logo-rut-color.65493b27.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.faf482b3.js",
+    "static/js/2.d568e9f2.chunk.js",
+    "static/css/main.98f05e70.chunk.css",
+    "static/js/main.5d142393.chunk.js"
+  ]
+}
