@@ -192,6 +192,7 @@
   opacity: .7;
 }
 .main__menu-item {
+  padding: 10px 15px;
   background-color: var(--secondary-color);
   border-radius: 10px;
   margin-bottom: 15px;
