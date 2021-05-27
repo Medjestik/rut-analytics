@@ -26,7 +26,7 @@
   flex-direction: column;
   scroll-behavior: smooth;
   min-height: 100vh;
-  background-image: url('../../images/rut1.jpg');
+  background-image: url('../../images/rut-overlay.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
