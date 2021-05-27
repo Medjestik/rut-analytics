@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import logo from '../../images/logo-rut-color.png';
+import logo from '../../images/logo-rut-white.png';
 
 function Header() {
   return (
