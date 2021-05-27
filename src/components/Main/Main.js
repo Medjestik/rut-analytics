@@ -38,7 +38,7 @@ function Main() {
 
   return (
     <div className="main container">
-      <h1 className="main__title">Аналитическая платформа РУТ (МИИТ)</h1>
+      <h1 className="main__title">Аналитическая платформа РУТ&nbsp;(МИИТ)</h1>
       <ul className="main__list">
         <li className="main__item">
           <div className="main__item-img main__item-img_type_indicator"></div>
