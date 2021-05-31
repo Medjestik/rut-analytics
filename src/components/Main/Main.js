@@ -59,7 +59,7 @@ function Main() {
                 <img className="main__menu-img" src={decrease} alt="иконка"></img>
                 <p className="main__menu-link">Расходы</p>
               </a>
-              <a className="main__menu-item" href="http://localhost:3000/" target="_blank" rel="noreferrer">
+              <a className="main__menu-item" href="http://83.220.46.36/viewer/public?dashboardGuid=c203df2fb19a468d8b1b0c8032ee4fc9" target="_blank" rel="noreferrer">
                 <img className="main__menu-img" src={financeState} alt="иконка"></img>
                 <p className="main__menu-link">Финансовые результаты</p>
               </a>
