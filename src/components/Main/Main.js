@@ -3,8 +3,9 @@ import './Main.css';
 import increase from '../../images/increase.png';
 import decrease from '../../images/decrease.png';
 import financeState from '../../images/finance-state.png';
-import analysis from '../../images/analysis.png';
-import education from '../../images/education.png';
+import vpo from '../../images/vpo.png';
+import dpo from '../../images/dpo.png';
+import nir from '../../images/nir.png';
 import contract from '../../images/contract.png';
 import teacher from '../../images/teacher.png';
 import salary from '../../images/salary.png';
@@ -47,7 +48,7 @@ function Main() {
         </li>
         <li className="main__item">
           <div className="main__item-img main__item-img_type_finance"></div>
-          <h3 className="main__item-name">Финансовое состояние</h3>
+          <h3 className="main__item-name">Финансовое результаты</h3>
           <button className="main__item-link" onClick={isShowFinance}>Просмотреть</button>
           <div className={`main__item-menu ${showFinance ? "main__item-menu_type_show" : "main__item-menu_type_hide"}`}>
             <button className="main__close-menu" type="button" onClick={isHideAll}></button>
@@ -72,12 +73,16 @@ function Main() {
           <div className={`main__item-menu ${showProduction ? "main__item-menu_type_show" : "main__item-menu_type_hide"}`}>
             <button className="main__close-menu" type="button" onClick={isHideAll}></button>
               <a className="main__menu-item" href="http://localhost:3000/" target="_blank" rel="noreferrer">
-                <img className="main__menu-img" src={education} alt="иконка"></img>
-                <p className="main__menu-link">Учебный процесс</p>
+                <img className="main__menu-img" src={vpo} alt="иконка"></img>
+                <p className="main__menu-link">Высшее образование</p>
               </a>
               <a className="main__menu-item" href="http://localhost:3000/" target="_blank" rel="noreferrer">
-                <img className="main__menu-img" src={analysis} alt="иконка"></img>
-                <p className="main__menu-link">Анализ безубыточности</p>
+                <img className="main__menu-img" src={dpo} alt="иконка"></img>
+                <p className="main__menu-link">Повышение квалификации</p>
+              </a>
+              <a className="main__menu-item" href="http://localhost:3000/" target="_blank" rel="noreferrer">
+                <img className="main__menu-img" src={nir} alt="иконка"></img>
+                <p className="main__menu-link">НИР</p>
               </a>
           </div>
         </li>
