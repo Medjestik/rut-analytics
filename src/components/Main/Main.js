@@ -72,7 +72,7 @@ function Main() {
           <button className="main__item-link" onClick={isShowProduction}>Просмотреть</button>
           <div className={`main__item-menu ${showProduction ? "main__item-menu_type_show" : "main__item-menu_type_hide"}`}>
             <button className="main__close-menu" type="button" onClick={isHideAll}></button>
-              <a className="main__menu-item" href="http://localhost:3000/" target="_blank" rel="noreferrer">
+              <a className="main__menu-item" href="http://83.220.46.36/viewer/public?dashboardGuid=c56630f9f8e946e18eadf6a2767812a7&showNav=true" target="_blank" rel="noreferrer">
                 <img className="main__menu-img" src={vpo} alt="иконка"></img>
                 <p className="main__menu-link">Высшее образование</p>
               </a>
