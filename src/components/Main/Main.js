@@ -109,7 +109,7 @@ function Main() {
         <li className="main__item">
           <div className="main__item-img main__item-img_type_property"></div>
           <h3 className="main__item-name">Имущество</h3>
-          <a className="main__item-link" href="http://localhost:3000/" target="_blank" rel="noreferrer">Просмотреть</a>
+          <a className="main__item-link" href="http://83.220.46.36/viewer/public?dashboardGuid=5be9ca95ef7e418b89e2aad92d326a02&showNav=true" target="_blank" rel="noreferrer">Просмотреть</a>
         </li>
       </ul>
     </div>
