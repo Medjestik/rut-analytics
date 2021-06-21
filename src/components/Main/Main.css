@@ -136,6 +136,10 @@
   background-color: var(--main-color);
   color: var(--white-color);
 }
+.main__item-link_type_block {
+  pointer-events: none;
+  user-select: none;
+}
 .main__item-menu {
   position: absolute;
   top: 0px;
@@ -201,6 +205,11 @@
   align-items: center;
   text-decoration: none;
   transition: all .3s ease-in-out;
+}
+.main__menu-item_type_block {
+  user-select: none;
+  pointer-events: none;
+  background-color: grey;
 }
 .main__menu-item:last-of-type {
   margin-bottom: 0px;
