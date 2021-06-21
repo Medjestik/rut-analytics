@@ -44,7 +44,7 @@ function Main() {
         <li className="main__item">
           <div className="main__item-img main__item-img_type_indicator"></div>
           <h3 className="main__item-name">Ключевые показатели</h3>
-          <a className="main__item-link" href="http://localhost:3000/" target="_blank" rel="noreferrer">Просмотреть</a>
+          <a className="main__item-link" href="/" target="_blank" rel="noreferrer">Просмотреть</a>
         </li>
         <li className="main__item">
           <div className="main__item-img main__item-img_type_finance"></div>
@@ -56,7 +56,7 @@ function Main() {
                 <img className="main__menu-img" src={increase} alt="иконка"></img>
                 <p className="main__menu-link">Доходы</p>
               </a>
-              <a className="main__menu-item" href="http://localhost:3000/" target="_blank" rel="noreferrer">
+              <a className="main__menu-item" href="/" target="_blank" rel="noreferrer">
                 <img className="main__menu-img" src={decrease} alt="иконка"></img>
                 <p className="main__menu-link">Расходы</p>
               </a>
@@ -76,11 +76,11 @@ function Main() {
                 <img className="main__menu-img" src={vpo} alt="иконка"></img>
                 <p className="main__menu-link">Высшее образование</p>
               </a>
-              <a className="main__menu-item" href="http://localhost:3000/" target="_blank" rel="noreferrer">
+              <a className="main__menu-item" href="/" target="_blank" rel="noreferrer">
                 <img className="main__menu-img" src={dpo} alt="иконка"></img>
                 <p className="main__menu-link">Повышение квалификации</p>
               </a>
-              <a className="main__menu-item" href="http://localhost:3000/" target="_blank" rel="noreferrer">
+              <a className="main__menu-item" href="/" target="_blank" rel="noreferrer">
                 <img className="main__menu-img" src={nir} alt="иконка"></img>
                 <p className="main__menu-link">НИР</p>
               </a>
@@ -92,15 +92,15 @@ function Main() {
           <button className="main__item-link" onClick={isShowPersonal}>Просмотреть</button>
           <div className={`main__item-menu ${showPersonal ? "main__item-menu_type_show" : "main__item-menu_type_hide"}`}>
             <button className="main__close-menu" type="button" onClick={isHideAll}></button>
-              <a className="main__menu-item" href="http://localhost:3000/" target="_blank" rel="noreferrer">
+              <a className="main__menu-item" href="http://83.220.46.36/viewer/public?dashboardGuid=0eef5c3b42a140a98bfe02ce9cd44bba" target="_blank" rel="noreferrer">
                 <img className="main__menu-img" src={teacher} alt="иконка"></img>
                 <p className="main__menu-link">Структура ППС</p>
               </a>
-              <a className="main__menu-item" href="http://localhost:3000/" target="_blank" rel="noreferrer">
+              <a className="main__menu-item" href="http://83.220.46.36/viewer/public?dashboardGuid=97540c72d17948d4a94844a2bc712d91 " target="_blank" rel="noreferrer">
                 <img className="main__menu-img" src={salary} alt="иконка"></img>
                 <p className="main__menu-link">Зарплата</p>
               </a>
-              <a className="main__menu-item" href="http://localhost:3000/" target="_blank" rel="noreferrer">
+              <a className="main__menu-item" href="/" target="_blank" rel="noreferrer">
                 <img className="main__menu-img" src={contract} alt="иконка"></img>
                 <p className="main__menu-link">Эффективные контракты</p>
               </a>
