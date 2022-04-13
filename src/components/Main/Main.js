@@ -44,7 +44,7 @@ function Main() {
         <li className="main__item">
           <div className="main__item-img main__item-img_type_institute"></div>
           <h3 className="main__item-name">По институтам (структурные подразделения 1&nbsp;уровня)</h3>
-          <a className="main__item-link main__item-link_type_block" href="/" target="_blank" rel="noreferrer">Просмотреть</a>
+          <a className="main__item-link" href="https://share.streamlit.io/navydragon/analytics_test/test.py" target="_blank" rel="noreferrer">Просмотреть</a>
         </li>
         <li className="main__item">
           <div className="main__item-img main__item-img_type_building"></div>
