@@ -42,14 +42,14 @@ function Main() {
       <h1 className="main__title">Анализ имущественного комплекса РУТ&nbsp;(МИИТ)</h1>
       <ul className="main__list">
         <li className="main__item">
-          <div className="main__item-img main__item-img_type_institute"></div>
-          <h3 className="main__item-name">По институтам (структурные подразделения 1&nbsp;уровня)</h3>
-          <a className="main__item-link" href="https://share.streamlit.io/navydragon/analytics_test/test.py" target="_blank" rel="noreferrer">Просмотреть</a>
+          <div className="main__item-img main__item-img_type_structure"></div>
+          <h3 className="main__item-name">Структурные подразделения</h3>
+          <a className="main__item-link" href="https://analytics.emiit.ru/analytics.html?index=0" target="_self" rel="noreferrer">Просмотреть</a>
         </li>
         <li className="main__item">
-          <div className="main__item-img main__item-img_type_building"></div>
-          <h3 className="main__item-name">По объектам<br></br>(зданиям)</h3>
-          <a className="main__item-link main__item-link_type_block" href="/" target="_blank" rel="noreferrer">Просмотреть</a>
+          <div className="main__item-img main__item-img_type_institute"></div>
+          <h3 className="main__item-name">Корпуса</h3>
+          <a className="main__item-link" href="https://analytics.emiit.ru/analytics.html?index=1" target="_self" rel="noreferrer">Просмотреть</a>
           <div className={`main__item-menu ${showFinance ? "main__item-menu_type_show" : "main__item-menu_type_hide"}`}>
             <button className="main__close-menu" type="button" onClick={isHideAll}></button>
               <a className="main__menu-item main__menu-item_type_block" href="http://83.220.46.36/viewer/public?dashboardGuid=87c5fa2978bb4def8efc0c024bd85bf9" target="_blank" rel="noreferrer">
@@ -67,29 +67,9 @@ function Main() {
           </div>
         </li>
         <li className="main__item">
-          <div className="main__item-img main__item-img_type_indicator"></div>
-          <h3 className="main__item-name">Итоговые<br></br>показатели</h3>
-          <a className="main__item-link main__item-link_type_block" href="/" target="_blank" rel="noreferrer">Просмотреть</a>
-          <div className={`main__item-menu ${showProduction ? "main__item-menu_type_show" : "main__item-menu_type_hide"}`}>
-            <button className="main__close-menu" type="button" onClick={isHideAll}></button>
-              <a className="main__menu-item" href="http://83.220.46.36/viewer/public?dashboardGuid=c56630f9f8e946e18eadf6a2767812a7&showNav=true" target="_blank" rel="noreferrer">
-                <img className="main__menu-img" src={vpo} alt="иконка"></img>
-                <p className="main__menu-link">Высшее образование</p>
-              </a>
-              <a className="main__menu-item main__menu-item_type_block" href="/" target="_blank" rel="noreferrer">
-                <img className="main__menu-img" src={dpo} alt="иконка"></img>
-                <p className="main__menu-link">Повышение квалификации</p>
-              </a>
-              <a className="main__menu-item main__menu-item_type_block" href="/" target="_blank" rel="noreferrer">
-                <img className="main__menu-img" src={nir} alt="иконка"></img>
-                <p className="main__menu-link">НИР</p>
-              </a>
-          </div>
-        </li>
-        <li className="main__item">
-          <div className="main__item-img main__item-img_type_structure"></div>
-          <h3 className="main__item-name">Структурные подразделения 2&nbsp;уровня</h3>
-          <a className="main__item-link main__item-link_type_block" href="/" target="_blank" rel="noreferrer">Просмотреть</a>
+          <div className="main__item-img main__item-img_type_calculation"></div>
+          <h3 className="main__item-name">Затраты на содержание имущества</h3>
+          <a className="main__item-link" href="https://analytics.emiit.ru/analytics.html?index=3" target="_self" rel="noreferrer">Просмотреть</a>
           <div className={`main__item-menu ${showPersonal ? "main__item-menu_type_show" : "main__item-menu_type_hide"}`}>
             <button className="main__close-menu" type="button" onClick={isHideAll}></button>
               <a className="main__menu-item" href="http://83.220.46.36/viewer/public?dashboardGuid=0eef5c3b42a140a98bfe02ce9cd44bba" target="_blank" rel="noreferrer">
@@ -107,9 +87,14 @@ function Main() {
           </div>
         </li>
         <li className="main__item">
-          <div className="main__item-img main__item-img_type_calculation"></div>
-          <h3 className="main__item-name">Расчет рыночной стоимости объектов</h3>
-          <a className="main__item-link main__item-link_type_block" href="/" target="_blank" rel="noreferrer">Просмотреть</a>
+          <div className="main__item-img main__item-img_type_time"></div>
+          <h3 className="main__item-name">Загрузка аудиторий РУТ</h3>
+          <a className="main__item-link" href="https://analytics.emiit.ru/analytics.html?index=4" target="_self" rel="noreferrer">Просмотреть</a>
+        </li>
+        <li className="main__item">
+          <div className="main__item-img main__item-img_type_time"></div>
+          <h3 className="main__item-name">Загрузка аудиторий РОАТ</h3>
+          <a className="main__item-link" href="https://analytics.emiit.ru/analytics.html?index=5" target="_self" rel="noreferrer">Просмотреть</a>
         </li>
       </ul>
     </div>

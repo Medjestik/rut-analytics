@@ -6,10 +6,8 @@ import Main from '../Main/Main.js';
 function App() {
   return (
     <div className="page">
-      <div className="overlay">
         <Header />
         <Main />
-      </div>
     </div>
   );
 }
