@@ -69,7 +69,7 @@ function Main() {
         <li className="main__item">
           <div className="main__item-img main__item-img_type_calculation"></div>
           <h3 className="main__item-name">Затраты на содержание имущества</h3>
-          <a className="main__item-link" href="https://analytics.emiit.ru/analytics.html?index=3" target="_self" rel="noreferrer">Просмотреть</a>
+          <a className="main__item-link" href="https://analytics.emiit.ru/analytics.html?index=2" target="_self" rel="noreferrer">Просмотреть</a>
           <div className={`main__item-menu ${showPersonal ? "main__item-menu_type_show" : "main__item-menu_type_hide"}`}>
             <button className="main__close-menu" type="button" onClick={isHideAll}></button>
               <a className="main__menu-item" href="http://83.220.46.36/viewer/public?dashboardGuid=0eef5c3b42a140a98bfe02ce9cd44bba" target="_blank" rel="noreferrer">
@@ -89,12 +89,12 @@ function Main() {
         <li className="main__item">
           <div className="main__item-img main__item-img_type_time"></div>
           <h3 className="main__item-name">Загрузка аудиторий РУТ</h3>
-          <a className="main__item-link" href="https://analytics.emiit.ru/analytics.html?index=4" target="_self" rel="noreferrer">Просмотреть</a>
+          <a className="main__item-link" href="https://analytics.emiit.ru/analytics.html?index=3" target="_self" rel="noreferrer">Просмотреть</a>
         </li>
         <li className="main__item">
           <div className="main__item-img main__item-img_type_time"></div>
           <h3 className="main__item-name">Загрузка аудиторий РОАТ</h3>
-          <a className="main__item-link" href="https://analytics.emiit.ru/analytics.html?index=5" target="_self" rel="noreferrer">Просмотреть</a>
+          <a className="main__item-link" href="https://analytics.emiit.ru/analytics.html?index=4" target="_self" rel="noreferrer">Просмотреть</a>
         </li>
       </ul>
     </div>

@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.1f9276b1.chunk.css",
-    "main.js": "./static/js/main.d4a4b2d6.chunk.js",
-    "main.js.map": "./static/js/main.d4a4b2d6.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.b8f52dc5.js",
-    "runtime-main.js.map": "./static/js/runtime-main.b8f52dc5.js.map",
-    "static/js/2.8027536e.chunk.js": "./static/js/2.8027536e.chunk.js",
-    "static/js/2.8027536e.chunk.js.map": "./static/js/2.8027536e.chunk.js.map",
-    "static/js/3.f708f85c.chunk.js": "./static/js/3.f708f85c.chunk.js",
-    "static/js/3.f708f85c.chunk.js.map": "./static/js/3.f708f85c.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.1f9276b1.chunk.css.map": "./static/css/main.1f9276b1.chunk.css.map",
-    "static/js/2.8027536e.chunk.js.LICENSE.txt": "./static/js/2.8027536e.chunk.js.LICENSE.txt",
-    "static/media/index.css": "./static/media/Raleway-Thin.48c8c234.eot",
-    "static/media/Main.css": "./static/media/time-white-icon.65e01dc1.png",
-    "static/media/logo-rut-white.e4835e80.png": "./static/media/logo-rut-white.e4835e80.png",
-    "static/media/App.css": "./static/media/rut-overlay.73d652a1.jpg"
+    "main.css": "./rut-analytics/build/static/css/main.1f9276b1.chunk.css",
+    "main.js": "./rut-analytics/build/static/js/main.408f3fdf.chunk.js",
+    "main.js.map": "./rut-analytics/build/static/js/main.408f3fdf.chunk.js.map",
+    "runtime-main.js": "./rut-analytics/build/static/js/runtime-main.7e8ad01c.js",
+    "runtime-main.js.map": "./rut-analytics/build/static/js/runtime-main.7e8ad01c.js.map",
+    "static/js/2.8027536e.chunk.js": "./rut-analytics/build/static/js/2.8027536e.chunk.js",
+    "static/js/2.8027536e.chunk.js.map": "./rut-analytics/build/static/js/2.8027536e.chunk.js.map",
+    "static/js/3.f708f85c.chunk.js": "./rut-analytics/build/static/js/3.f708f85c.chunk.js",
+    "static/js/3.f708f85c.chunk.js.map": "./rut-analytics/build/static/js/3.f708f85c.chunk.js.map",
+    "index.html": "./rut-analytics/build/index.html",
+    "static/css/main.1f9276b1.chunk.css.map": "./rut-analytics/build/static/css/main.1f9276b1.chunk.css.map",
+    "static/js/2.8027536e.chunk.js.LICENSE.txt": "./rut-analytics/build/static/js/2.8027536e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./rut-analytics/build/static/media/Raleway-Thin.48c8c234.eot",
+    "static/media/Main.css": "./rut-analytics/build/static/media/time-white-icon.65e01dc1.png",
+    "static/media/logo-rut-white.e4835e80.png": "./rut-analytics/build/static/media/logo-rut-white.e4835e80.png",
+    "static/media/App.css": "./rut-analytics/build/static/media/rut-overlay.73d652a1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8f52dc5.js",
+    "static/js/runtime-main.7e8ad01c.js",
     "static/js/2.8027536e.chunk.js",
     "static/css/main.1f9276b1.chunk.css",
-    "static/js/main.d4a4b2d6.chunk.js"
+    "static/js/main.408f3fdf.chunk.js"
   ]
 }
